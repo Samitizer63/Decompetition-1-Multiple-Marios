@@ -5,7 +5,7 @@ include util.mk
 # Default target
 default: all
 
-TARGET_STRING := sm64-decompetition-project
+TARGET_STRING := sm64-puzzle-hack
 
 # Preprocessor definitions
 DEFINES :=

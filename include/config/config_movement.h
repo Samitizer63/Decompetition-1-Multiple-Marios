@@ -18,7 +18,7 @@
  * Allows Mario to aim towards a new direction at the end of turning around,
  * and allows Mario to turn around multiple times in a row.
  */
-// #define RESET_DIRECTION_WHEN_TURNING_AROUND
+#define RESET_DIRECTION_WHEN_TURNING_AROUND
 
 /**
  * Improved hanging:
@@ -46,7 +46,7 @@
 /**
  * Disables the scream that mario makes when falling off a great height (this is separate from actual fall damage).
  */
-// #define NO_FALL_DAMAGE_SOUND
+#define NO_FALL_DAMAGE_SOUND
 
 /**
  * Fall height for normal fall damage. Vanilla is 1150.0f.
@@ -61,17 +61,17 @@
 /**
  * Disables Mario getting stuck in snow and sand when falling.
  */
-// #define NO_GETTING_BURIED
+#define NO_GETTING_BURIED
 
 /**
  * Prevents hands-free holding.
  */
-// #define HANDS_FREE_HOLDING_FIX
+#define HANDS_FREE_HOLDING_FIX
 
 /**
  * Prevents Mario from losing his cap.
  */
-// #define PREVENT_CAP_LOSS
+#define PREVENT_CAP_LOSS
 
 /**
  * Uses Shindou's pole behavior.
@@ -81,12 +81,12 @@
 /**
  * If A and Z are pressed on the same frame while running, Mario will long jump instead of ground pound.
  */
-// #define EASIER_LONG_JUMPS
+#define EASIER_LONG_JUMPS
 
 /**
  * Enables the ability to hold Z while twirling to descend faster.
  */
-// #define Z_TWIRL
+#define Z_TWIRL
 
 /**
  * Disables bonks when ground pounding next to a wall.
@@ -121,7 +121,7 @@
 /**
  * Disables BLJs and crushes SimpleFlips's dreams.
  */
-// #define DISABLE_BLJ
+#define DISABLE_BLJ
 
 /**
  * Re-enables upwarping when entering water. Forces you to only enter water from the top.

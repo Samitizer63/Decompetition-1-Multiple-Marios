@@ -25,12 +25,12 @@
 /**
  * Spawns floombas on the title screen.
  */
-#define INTRO_FLOOMBAS
+// #define INTRO_FLOOMBAS
 
 /**
  * Enables widescreen (16:9) support.
  */
-#define WIDE
+// #define WIDE
 
 /**
  * Skybox size modifier, changing this will add support for larger skybox images. NOTE: Vanilla skyboxes may break if you change this option. Be sure to rescale them accordingly.
@@ -108,7 +108,7 @@
  * Uses the star object's model in the star dance cutscene.
  * This has a side effect of making the star dance star also transparent when Mario collects a transparent star.
  */
-// #define STAR_DANCE_USES_STARS_MODEL
+#define STAR_DANCE_USES_STARS_MODEL
 
 /**
  * Disables all object shadows. You'll probably only want this either as a last resort for performance or if you're making a super stylized hack.
